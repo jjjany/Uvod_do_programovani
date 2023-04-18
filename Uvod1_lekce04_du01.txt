@@ -1,0 +1,13 @@
+Klasické zaokrouhlování
+
+Překvapivě Python neobsahuje žádnou funkci, která by dělala klasické zaokrouhlování, tedy takové, na které jsme všichni zvyklí ze školy. S něčím takovým se nemůžeme spokojit.
+
+    Zkuste vymyslet (za použití funkcí, které už znáte, tj.: round(), len(), ceil(), randint() a uniform()) příkaz, který zaokrouhlí číslo v proměnné cislo na celé číslo klasickým zaokrouhlováním.
+    Pokud si chcete svoje řešení otestovat, můžete si obsah proměnné cislo vygenerovat náhodně funkcí random.uniform(). Ta má stejné vstupy jako funkce random.randint(), generuje ale desetinná čísla.
+
+1. řešení:
+>>> round(numb + (((numb-numb%1)%2)-1))-(((numb-numb%1)%2)-1)
+
+2. řešení:
+(Po nápovědě, že to lze řešit pouze s funkcí ceil() a že si mám nakreslit na číselnou osu to, co mám k dispozici a co chci postavit.)
+>>> -ceil(-0.5-numb)

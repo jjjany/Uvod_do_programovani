@@ -1,0 +1,20 @@
+Hrátky s proměnnými
+
+Dbejte na to, aby proměnné měly vhodný název dobře naznačující, co je v které z nich uloženo.
+
+    a) Uložte do proměnné herci celočíselnou hodnotu udávající počet herců, kteří hrají v divadle. Do proměnné platy spočítejte celkové náklady divadla na platy herců, víme-li, že průměrný plat herce je 22 392 Kč.
+
+>>> herci = 7              
+>>> platy = herci * 22392
+>>> platy
+156744
+
+    b) Do jiné proměnné s vhodným názvem uložte nějaké desetinné číslo, například velikost slevy na studentské vstupné. Do další proměnné uložte nějaký řetězec, například název nějakého představení.
+
+>>> student_sleva = 0.25 
+
+    c)Zatímco jste dělali předchozí cvičení, do divadla přibyli dva noví herci. Aktualizujte tedy obsah proměnné herci a zařiďte, aby v proměnné platy byla správná hodnota nákladů. Zamyslete se nad tím co se stalo s hodnotou, která byla v proměnné herci uložena před tím.
+
+>>> herci = herci + 2; platy = herci * 22392
+>>> platy
+201528

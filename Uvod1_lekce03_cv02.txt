@@ -1,0 +1,22 @@
+Celočíselné dělení a dělení se zbytkem
+
+Zaexperimentujte s operátory celočíselného dělení a dělení se zbytkem.
+
+    a) Kolikrát se vejde číslo 72 do 1024? Kolik je zbytek po dělení čísla 1024 číslem 72?
+
+>>> 1024 // 72; 1024 % 72
+14
+16
+
+    b) Divadlo má délky představení vždy uloženo v minutách. Například extrémně nudné a zničující představení "Smrt v přímém přenosu" trvá 265 minut. Uložte tuto hodnotu do proměnné delka.
+
+>>> delka = 265
+
+
+    c) Použijte proměnnou delka a spočítejte trvání představení vyjádřeno v hodinách a minutách. Do proměnné hodin uložte počet celých hodin a do proměnné minut uložte zbylé minuty.
+
+>>> hodin = delka // 60
+>>> minut = delka % 60
+>>> hodin; minut
+4
+25

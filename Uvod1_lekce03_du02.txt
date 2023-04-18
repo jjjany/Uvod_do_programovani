@@ -1,0 +1,21 @@
+Antikvariát
+
+Antikvariát Poslední strana nabízí veškeré své tituly za 50 kč.
+
+    a) Uložte název antikvariátu do libovolné proměnné.
+
+>>> nazev = "Poslední strana"
+
+    b) Cenu za jeden titul uložte do proměnné cena_za_kus.
+
+>>> cena_za_kus = 50
+
+    c) Antikvariát má dnes speciální akci, -30% na všechny dostupné tituly! Slevu uložte do proměnné sleva jako desetinné číslo.
+
+>>> sleva = 0.30
+
+    d) Znovu vypočtěte cenu za kus na základě této slevy.
+
+>>> cena_za_kus = cena_za_kus - cena_za_kus*sleva
+>>> cena_za_kus
+35.0

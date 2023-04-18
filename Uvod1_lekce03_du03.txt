@@ -1,0 +1,26 @@
+Plánování svatby
+
+Karolína bude mít za půl roku svatbu a právě obdržela od agentury ceník služeb. Cena za kompletní menu pro dospělou osobu je 990 Kč, pro dítě je to 50% ceny dospělého.
+
+    a) Uložte cenu za dospělou osobu do proměnné cena_dospely.
+
+>>> cena_dospely = 990
+
+    b) Pomocí proměnné cena_dospely vypočítejte cenu za dítě, tu uložte do proměnné cena_dite.
+
+>>> cena_dite = cena_dospely * 0.50   
+>>> cena_dite
+495.0
+
+    c) Vypočítejte celkové náklady na jídlo pro 60 dospělých a 8 dětí. Pro výpočet použijte předchozí proměnné.
+
+>>> 8 * cena_dite + 60 * cena_dospely
+63360.0
+
+    d) V ceníku byla chyba, cena za dospělého je ve skutečnosti 1000 kč. Upravte na základě této informace všechny proměnné.
+
+>>> cena_dospely = 1000               
+>>> cena_dite = cena_dospely * 0.50   
+>>> 8 * cena_dite + 60 * cena_dospely
+64000.0
+
